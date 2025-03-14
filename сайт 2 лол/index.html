@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт для студентов ВКСИТа</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('566.png');
+            /* Укажите путь к вашему изображению */
+            background-size: cover;
+            /* Заставляет изображение покрывать весь фон */
+            background-position: center;
+            /* Центрирует изображение */
+            margin: 0;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-image: url('528.png');
+            /* Укажите путь к вашему изображению */
+            background-size: cover;
+            /* Заставляет изображение покрывать весь фон */
+            background-position: center;
+            /* Центрирует изображение */
+            color: #ffffff;
+            padding: 20px;
+            text-align: left;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            display: flex;
+            /* Используем flexbox */
+            align-items: center;
+            /* Центрируем по вертикали */
+            justify-content: left;
+            /* Центрируем по горизонтали */
+        }
+
+        header img {
+            margin-right: 150px;
+            /* Отступ между изображением и заголовком */
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        .content-container {
+            width: 80%;
+        }
+
+        section {
+            background-image: url('444.png');
+            /* Укажите путь к вашему изображению */
+            background-size: cover;
+            /* Заставляет изображение покрывать весь фон */
+            background-position: center;
+            /* Центрирует изображение */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .notes-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .note-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .note {
+            background-image: url('654.png');
+            /* Укажите путь к вашему изображению */
+            background-size: cover;
+            /* Заставляет изображение покрывать весь фон */
+            background-position: center;
+            /* Центрирует изображение */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            font-size: 14px;
+            text-align: justify;
+            width: 45%;
+        }
+
+        .note:nth-child(odd) {
+            align-self: flex-start;
+        }
+
+        .note:nth-child(even) {
+            align-self: flex-end;
+        }
+
+        .notes2-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .note2 {
+            background-image: url('366.png');
+            /* Укажите путь к вашему изображению */
+            background-size: cover;
+            /* Заставляет изображение покрывать весь фон */
+            background-position: center;
+            /* Центрирует изображение */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            font-size: 14px;
+            text-align: justify;
+            width: 45%;
+        }
+
+        .note2:nth-child(odd) {
+            align-self: flex-start;
+        }
+
+        .note2:nth-child(even) {
+            align-self: flex-end;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <a href="https://vksit.ru/#/">
+            <img src="123.png" width="359" height="59">
+        </a>
+        <h1>Сайт для студентов ВКСИТа</h1>
+    </header>
+    <nav>
+        <a href="https://vksit.ru/#/">Сайт ВКСИТа</a>
+        <a href="https://vk.com/vks_it?from=groups">Группа Вк</a>
+        <a href="https://ssuz.vip.edu35.ru/auth/login-page">Сайт Электронного дневника</a>
+    </nav>
+
+    <div class="content-container">
+        <section>
+            <h2>Готовое пособие по обучению</h2>
+            <p>Это топчик!</p>
+
+
+            
+            <div class="notes-container">
+                <div class="note-wrapper">
+                <div class="note" >
+                    <h2>1. Общая информация о колледже</h2><br>
+                    Вологодский колледж связи и информационных технологий (ВКСИТ) предлагает обучение по современным
+                    направлениям в области связи и IT. Колледж располагает современным оборудованием и
+                    высококвалифицированным преподавательским составом.
+                    
+                </div>
+                <img src="788.png" width="500" height="300">
+            </div>
+            <div class="note-wrapper">
+                <img src="998.png" width="500" height="375">
+                <div class="note2">
+                    <h2>2. Направления обучения</h2><br>
+                    Связь и телекоммуникации: подготовка специалистов в области мобильной связи, передачи данных и
+                    сетевой инфраструктуры.<br>
+                    Информационные технологии: изучение программирования, разработки программного обеспечения и работы с
+                    базами данных.<br>
+                    Компьютерные сети: проектирование, администрирование и управление компьютерными сетями.
+                </div>
+            </div>
+            <div class="note-wrapper">
+                <div class="note">
+                    <h2>3. Учебный процесс</h2><br>
+                    Формат обучения: предлагается как очное, так и заочное обучение.<br>
+                    Длительность обучения: обычно составляет 3-4 года в зависимости от выбранной программы.<br>
+                    Практика: обязательная производственная практика на предприятиях связи и IT-компаниях для получения
+                </div>
+                <img src="860.png" width="400" height="300">
+            </div>
+                <div class="note-wrapper">
+                    <img src="619.png" width="512" height="287">
+                <div class="note2">
+                    <h2>4. Курсы и дисциплины</h2><br>
+                    Студенты изучают ключевые предметы, такие как:<br><br>
+
+                    Основы программирования<br>
+                    Сети и телекоммуникации<br>
+                    Операционные системы<br>
+                    Базы данных<br>
+                    Безопасность информации
+                </div>
+            </div>
+            <div class="note-wrapper">
+                <div class="note">
+                    <h2>5. Дополнительные возможности</h2><br>
+                    Стажировки: возможность прохождения стажировок в крупных компаниях и организациях.<br>
+                    Конкурсы и олимпиады: участие в различных конкурсах для повышения квалификации и получения
+                    опыта.<br>
+                    Клубы и секции: активная студенческая жизнь с участием в клубах по интересам и научных секциях.
+                </div>
+                <img src="423.png" width="512" height="385">
+            </div>
+            <div class="note-wrapper">
+                <img src="118.png" width="512" height="288">
+                <div class="note2">
+                    <h2>6. Поступление</h2><br>
+                    Документы: для поступления необходимы аттестат о среднем образовании и результаты ЕГЭ (если
+                    требуется).<br>
+                    Собеседование: может проводиться для некоторых специальностей.<br>
+                    Сроки подачи документов: уточняйте на официальном сайте колледжа.
+                </div>
+            </div>
+            <div class="note-wrapper">
+                <div class="note">
+                    <h2>7. Карьера и трудоустройство</h2><br>
+                    Поддержка в трудоустройстве: колледж помогает выпускникам с трудоустройством, предоставляет
+                    информацию о вакансиях и организует ярмарки вакансий.<br>
+                    Партнёрства с компаниями: сотрудничество с различными предприятиями для обеспечения практики и
+                    трудоустройства студентов.
+                </div>
+                <img src="791.png" width="512" height="287">
+            </div>
+                <div class="note-wrapper">
+                    <img src="425.png" width="384" height="384">
+                <div class="note2">
+                    <h2>8. Контакты и ресурсы</h2><br>
+                    Официальный сайт колледжа: актуальная информация о программах, расписании и новостях.<br>
+                    Социальные сети: следите за новостями и событиями колледжа в социальных сетях для получения
+                    оперативной информации.
+                </div>
+              </div>
+            </div>
+
+        </section>
+
+    </div>
+    <div style="text-align: center;">
+        <!-- <img src="12345.png" alt="изображение 1" width="127" height="127"></a> -->
+        <!-- <img src="123456789.png" alt="изображение 2" width="127" height="127"></a> -->
+        <img src="666.png" alt="изображение 3" width="127" height="127"></a>
+        <!-- <img src="228.png" alt="изображение 4" width="128" height="128"></a>
+        <img src="152.png" alt="изображение 5" width="128" height="128"></a> -->
+    </div>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+    <footer>
+        <p>&copy; 2025 Все права защищены</p>
+    </footer>
+
+</body>
+
+</html>
